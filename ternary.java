@@ -10,5 +10,7 @@ import java.util.Scanner;
 
         String result = (a>b)? "A is greater" :"B is greater";
         System.out.println(result);
+       System.out.print(a+"a");
+     
     }
 }
