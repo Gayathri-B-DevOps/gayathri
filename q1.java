@@ -1,14 +1,12 @@
-public class q1 {
-    public static void main(String[] args) {
-       
-        for ( int j=1;j<=3;j=j+1)
-        {
-       
+class q1{
+    public static void main(String args[])
 
-        for (int i=1;i<=j;i=i+1)
-        {
-            System.out.print("*");
+    // for loop syntax
+    // for(start;stop;incerement)
+    {
+        for(int i =1;i<11;i=i+1){
+        System.out.println( i);
+
         }
-        System.out.println();
     }
-}}
+}
